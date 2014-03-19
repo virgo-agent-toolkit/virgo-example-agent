@@ -1,0 +1,15 @@
+{
+  "PKG_NAME": "virgo-example-agent",
+  "SHORT_DESCRIPTION": "Virgo Example Agent",
+  "SHORT_NAME": "Virgo Example Agent",
+  "DOCUMENTATION_LINK": "",
+  "REPO": "",
+  "LICENSE": "Apache-2.0",
+  "AUTHOR": "",
+  "EMAIL": "",
+  "MAINTAINER": "",
+  "LONG_DESCRIPTION": "",
+  "WIN_PRODUCT_DESCRIPTION": "",
+  "CHANGELOG": [
+  ]
+}
