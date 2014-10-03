@@ -67,3 +67,4 @@
 ./base/util/test.lua
 ./base/util/underscore.lua
 ./base/util/uuid.lua
+./base/util/upgrade.lua

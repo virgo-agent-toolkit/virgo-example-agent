@@ -2,7 +2,7 @@
   "PKG_NAME": "virgo-example-agent",
   "SHORT_DESCRIPTION": "Virgo Example Agent",
   "SHORT_NAME": "Virgo Example Agent",
-  "DOC_LINK": "Documentation can be found at http://virgoagent.com/",
+  "DOCUMENTATION_LINK": "Documentation can be found at http://virgoagent.com/",
   "REPO": "",
   "LICENSE": "Apache-2.0",
   "AUTHOR": "",
