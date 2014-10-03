@@ -5,6 +5,9 @@ before_install:
   - ./configure
   - make -C out
 
+script:
+  - exit 0
+
 notifications:
   email:
     - ryan.phillips@rackspace.com
