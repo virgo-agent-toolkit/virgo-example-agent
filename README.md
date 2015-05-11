@@ -5,11 +5,14 @@
 This project is a template to create a minimally viable Virgo Agent. The entry
 point must be ```init.lua``` which exports a run function.
 
-## Compilation
+## Compilation Linux/OSX
 
 ```
-git submodule update --init --recursive
-./configure
-make -C out -j
-out/Debug/virgo
+make
+```
+
+## Compilation Windows
+
+```
+Make.bat
 ```
