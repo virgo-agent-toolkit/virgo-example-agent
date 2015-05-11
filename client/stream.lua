@@ -13,11 +13,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 --]]
-local ConnectionStream = require("/base/client/connection_stream").ConnectionStream
+local ConnectionStream = require("virgo/client/connection_stream").ConnectionStream
 
 local logging = require('logging')
-local loggingUtil = require('/base/util/logging')
-local fmt = require('string').format
+local loggingUtil = require('virgo/util/logging')
 
 local Stream = ConnectionStream:extend()
 function Stream:initialize(id, token, guid, upgradeEnabled, options, types)
@@ -33,6 +32,4 @@ function Stream:_createConnection(options)
   return client
 end
 
-local exports = {}
 exports.Stream = Stream
-return exports

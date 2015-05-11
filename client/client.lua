@@ -13,13 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 --]]
-local AgentClient = require('/base/client/client').AgentClient
+local AgentClient = require('virgo/client/client').AgentClient
 
 local Client = AgentClient:extend()
 function Client:initialize(options, connectionStream, types)
   AgentClient.initialize(self, options, connectionStream, types)
 end
 
-local exports = {}
 exports.Client = Client
-return exports
