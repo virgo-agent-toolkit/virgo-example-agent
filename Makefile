@@ -1,5 +1,5 @@
 APP_FILES=$(shell find . -type f -name '*.lua')
-LIT_VERSION=1.1.8
+LIT_VERSION=2.1.8
 TARGET=example
 LUVI?=./luvi
 LIT?=./lit
